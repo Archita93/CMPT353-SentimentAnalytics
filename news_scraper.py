@@ -21,6 +21,7 @@ for topic in topics:
     soup = BeautifulSoup(reqs.text, 'html.parser')
  
     urls_topic = []
+    print("hello")
     for link in soup.find_all('a'):
         potential_link = link.get('href')
         if potential_link is None:
@@ -31,10 +32,12 @@ for topic in topics:
 
         if 'https://www.allsides.com/news/' in potential_link and not empty:
             urls_topic.append(link.get('href'))
+    print("hello")
 
 
     for url in urls_topic:
         article = ns.Article(url )
+        print("hello")
         article.download()
         try:
             article.parse()
@@ -47,7 +50,6 @@ for topic in topics:
         except:
             print("An exception occurred")
             failures += 1
-
 
 print(df)
 print("Successes: " + str(successes))
