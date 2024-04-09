@@ -85,7 +85,7 @@ async def return_all_pages(session, args):
 
 async def main(topic):
     url_skeleton = f"https://www.allsides.com/search?search={topic}&item_bundle=1&sort_by=node_created"
-    total_pages = 40
+    total_pages = 38
     
     async with aiohttp.ClientSession() as session:
         initial_url = url_skeleton
