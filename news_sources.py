@@ -113,14 +113,3 @@ if __name__ == "__main__":
 
     topic = sys.argv[1]
     asyncio.run(main_wrapper(topic))
-
-# async def main_wrapper():
-#     # df = await main("abortion")
-#     df = await main("healthcare")
-#     # df = await main("public-health")
-#     # df = await main("housing-and-homelessness")
-#     # df = await main("immigration")
-#     # df = await main("economy-and-jobs")
-
-# asyncio.run(main_wrapper())
-
