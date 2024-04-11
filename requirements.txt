@@ -1,2 +1,14 @@
 newspaper3k
 aiohttp
+jupyter 
+ipywidgets
+torch
+torchvision
+tensorflow
+flax
+tokenizers
+sentencepiece
+transformers
+rouge_score
+nltk
+gensim-4.3.2
