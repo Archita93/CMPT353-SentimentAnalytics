@@ -1,5 +1,6 @@
 newspaper3k
 aiohttp
+<<<<<<< HEAD
 jupyter 
 ipywidgets
 torch
@@ -12,3 +13,8 @@ transformers
 rouge_score
 nltk
 gensim-4.3.2
+=======
+pyspark
+torch
+transformers
+>>>>>>> 357a20bdf122c6e68b0abecb7f7fa4a32ae25e42
