@@ -5,11 +5,7 @@ import nltk
 
 from transformers import pipeline
 
-<<<<<<< HEAD
-#python labeler.py ./final_summ.csv
-=======
 #python labeler.py final_summ.csv
->>>>>>> 6e7b749 (almost lost this)
 
 
 #nltk.download('all')
