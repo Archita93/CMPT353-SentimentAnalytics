@@ -8,37 +8,37 @@ News agencies often use various tactics to influence viewers toward their politi
 
 Here is a structure of our directory
 
-CMPT353-SentimentAnalytics/
-│
-├── data_creation_scripts/         # Scripts for data preparation and scraping
-│   
-│   ├── labeler.py                # Script to add the sentiment scores 
-│   ├── news_scraping.py          # Script to extract actual content from news sources
-│   └── news_sources.py           # Script to scrape news articles
-|   └── summary.py                # Script to summarise news article
-|
-├── data_creation_scripts/         # Scripts for data preparation and scraping
-│   
-│   ├── abortion_news.csv          # Script produced after running news_scraping.py                                                       
-│   ├── healthcare_news.csv        # Script produced after running news_scraping.py  
-│   └── environment_news.csv       # Script produced after running news_scraping.py  
-|   └── immigration_news.csv       # Script produced after running news_scraping.py  
-|   └── public-health_news.csv     # Script produced after running news_scraping.py  
-|   └── sustainability_news.csv    # Script produced after running news_scraping.py  
-|   └── labeled.csv                 # Non-duplicated data produced after running labeler.py
-|   └── test.csv                    # Duplicated data produced after running labeler.py
-|   └── final_summ.csv              # Data produced after running summary.py
-|
-├── scripts_old/         # Not relevant scripts - initialised in the beginning of the project
-│   
-│   ├── news_scraper.py               
-│   ├── news_sources.ipynb          
-│   └── news_sources_old.py           
-|
-├── data_cleaning.ipynb                    
-├── model.ipynb        
-├── requirements.txt  # contains all the required packages
-├── requirements.txt
+    CMPT353-SentimentAnalytics/
+    │
+    ├── data_creation_scripts/         # Scripts for data preparation and scraping
+    │   
+    │   ├── labeler.py                # Script to add the sentiment scores 
+    │   ├── news_scraping.py          # Script to extract actual content from news sources
+    │   └── news_sources.py           # Script to scrape news articles
+    |   └── summary.py                # Script to summarise news article
+    |
+    ├── data_creation_scripts/         # Scripts for data preparation and scraping
+    │   
+    │   ├── abortion_news.csv          # Script produced after running news_scraping.py                                                       
+    │   ├── healthcare_news.csv        # Script produced after running news_scraping.py  
+    │   └── environment_news.csv       # Script produced after running news_scraping.py  
+    |   └── immigration_news.csv       # Script produced after running news_scraping.py  
+    |   └── public-health_news.csv     # Script produced after running news_scraping.py  
+    |   └── sustainability_news.csv    # Script produced after running news_scraping.py  
+    |   └── labeled.csv                 # Non-duplicated data produced after running labeler.py
+    |   └── test.csv                    # Duplicated data produced after running labeler.py
+    |   └── final_summ.csv              # Data produced after running summary.py
+    |
+    ├── scripts_old/         # Not relevant scripts - initialised in the beginning of the project
+    │   
+    │   ├── news_scraper.py               
+    │   ├── news_sources.ipynb          
+    │   └── news_sources_old.py           
+    |
+    ├── data_cleaning.ipynb                    
+    ├── model.ipynb        
+    ├── requirements.txt  # contains all the required packages
+    ├── requirements.txt
 
 
 Instructions:
